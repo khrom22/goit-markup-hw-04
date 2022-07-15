@@ -362,3 +362,9 @@ border-right: 1px solid #EEEEEE;
   text-decoration: underline;
   text-decoration-color: var(--cl-active);
 }
+
+/*icons*/
+.icon-mail{
+  outline: 1px solid red;
+  display: inline-block;
+}
