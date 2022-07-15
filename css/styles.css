@@ -364,7 +364,28 @@ border-right: 1px solid #EEEEEE;
 }
 
 /*icons*/
-.icon-mail{
+.header-icon {
   outline: 1px solid red;
-  display: inline-block;
+  margin-right: 10px;
+}
+.heder-icon:hover
+.header-icon:focus{
+  color: var(--cl-active);
+}
+
+.tumb{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA; 
+  margin-bottom: 30px;
+
+  outline: 1px solid teal;
+}
+.benefits-icon{
+ 
+  outline: 1px solid red ;
+
 }
