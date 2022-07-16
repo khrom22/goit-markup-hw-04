@@ -163,7 +163,8 @@ background-position: center;
   border: none;
   border-radius: 4px;
 }
-.btn:hover{
+.btn:hover,
+.btn:focus{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -180,8 +181,12 @@ background-position: center;
   justify-content: center;
   width: 270px;
   height: 120px;
-  background-color: #F5F4FA; 
-  margin-bottom: 30px;}
+   
+  margin-bottom: 30px;
+  background: #F5F4FA;
+    border-radius: 4px;
+
+}
 .benefits-list-item{
   width: 270px;
 }
@@ -240,6 +245,8 @@ background-position: center;
 }
 .team-list-item {
   background-color: var(--light-bg-cl);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-text{
   padding-top: 30px;
@@ -269,14 +276,16 @@ background-position: center;
     height: 44px;
     align-items: center;
     justify-content: center;
-
   }
-  .social-link:hover{
+  .social-link:hover,
+  .social-link:focus{
     fill: #ffffff;
     background-color: #2196F3;
     border-radius: 50%;
   }
-.social-link:hover>.social-icon{
+.social-link:hover>.social-icon,
+.social-link:focus>.social-icon
+{
   fill: #ffffff;
 }
 
@@ -308,18 +317,21 @@ background-position: center;
    justify-content: center;
   width: 170px;
   height: 92px;
-   border: 1px solid rgba(175, 177, 184, 1);
+  border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 .client-icon {
   fill: #AFB1B8;
 }
 
-.client-link:hover>.client-icon {
+.client-link:hover>.client-icon,
+.client-link:focus>.client-icon {
   fill: #2196F3;
 
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   border-color: #2196F3;
 }
 /* footer*/
@@ -399,7 +411,7 @@ background-position: center;
   
 
 }
-.footer-socials-item{
+.footer-social-link{
   width: 44px;
   height: 44px;
   display: flex;
@@ -412,8 +424,8 @@ align-items: center;
   fill: #ffffff;
 }
 
-.footer-socials-item:hover,
-.footer-socials-item:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: #2196F3;
 }
 .footer-position{
